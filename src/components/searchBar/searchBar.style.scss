@@ -5,21 +5,21 @@ div{
         border: 0;
         outline: 0;
         background: transparent;
-        border-bottom: 1px solid #6f6f6f;
+        border-bottom: 1px solid #574f7d;
         
         font-size: 1.55rem;
-        color: #000;
+        color: #e0f0ea;
     }
     .clear{
         border-radius: 0%;
-        border: 1px solid black;
+        border: 1px solid #574f7d;
         width: 25%;
         height: 60%;
-        color: white;
-        background-color: #000;
+        color: #e0f0ea;
+        background-color: #574f7d;
         &:hover{
-            color: #000;
-            background-color: white;
+            color: #574f7d;
+            background-color: #e0f0ea;
         }
     }
     }

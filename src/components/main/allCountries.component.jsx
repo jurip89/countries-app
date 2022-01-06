@@ -13,7 +13,11 @@ export const AllCountries = () => {
     
 
     if (isLoading) {
-        return <p>Loading.. please wait!</p>
+        return (
+            <div className="main">
+                <p>Loading.. please wait!</p>
+            </div>
+        )
     }
     return (
         <div className="main">

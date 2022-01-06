@@ -17,7 +17,7 @@ export const ContinentFilter = () => {
 
     return (
         <select onChange={handleChange} value={continent}>
-            <option value='' selected>No Continent Selected</option>
+            <option value=''>No Continent Selected</option>
             <option value="asia">Asia</option>
             <option value="america">America</option>
             <option value="europe">Europe</option>
