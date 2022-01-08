@@ -6,7 +6,7 @@ import { NavBar } from './components/navBar/navbar.component';
 import { HomePage } from './components/homePage/homePage.component';
 import {BrowserRouter as Router, Routes,Route } from 'react-router-dom'
 import {CountryPage} from './components/contryPage/countryPage.component'
-
+import {Footer} from './components/footer/footer.component'
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -20,6 +20,7 @@ function App() {
         <Route path='/' element={<HomePage/> }/>
         <Route path='/:name' element={<CountryPage/> }/>
       </Routes>
+      <Footer/>
     </Router>
     
   )
