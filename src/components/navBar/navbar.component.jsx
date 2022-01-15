@@ -5,7 +5,7 @@ export const NavBar = () => {
         <nav>
             <div className="nav">
                 <h1>Where in the world?</h1>
-                <span>MODE</span>
+                
             </div>
         </nav>
     )
