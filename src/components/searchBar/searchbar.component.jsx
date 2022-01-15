@@ -7,6 +7,9 @@ import {
     clearSearchTerm
 } from "../../features/searchSlice";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faDeleteLeft} from '@fortawesome/free-solid-svg-icons'
+
 export const SearchBar = () => {
     
     const dispatch = useDispatch();
@@ -20,9 +23,9 @@ export const SearchBar = () => {
         dispatch(clearSearchTerm())
     }
     
-    return (<div>
+    return (<div className="search-container">
         <input type='text' value={searchTerm} onChange={change} />
-        {searchTerm.length > 0 ? <button className="clear" type="button" onClick={clear}>Claear</button> :''}
+        {searchTerm.length > 0 ? <FontAwesomeIcon className="clear" icon={faDeleteLeft} onClick={clear}>Claear</FontAwesomeIcon> :''}
         </div>
     )
 }

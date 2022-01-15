@@ -1,7 +1,11 @@
-div{
+.search-container{
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
     input{
         margin: 0 2.5% 5% 0;
-        width: 70%;
+        width: 75%;
         border: 0;
         outline: 0;
         background: transparent;
@@ -11,10 +15,10 @@ div{
         color: #e0f0ea;
     }
     .clear{
-        border-radius: 0%;
+        border-radius: 5%;
         border: 1px solid #574f7d;
-        width: 20%;
-        height: 60%;
+        width: 17.5%;
+        
         color: #e0f0ea;
         background-color: #574f7d;
         &:hover{
@@ -22,4 +26,10 @@ div{
             background-color: #e0f0ea;
         }
     }
+    }
+
+    @media only screen and (max-width:500px){
+        .search-container{
+            width: 80%;
+        }
     }

@@ -5,4 +5,13 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width:500px){
+    .bottom{
+        display: flex;
+        justify-content: center;
+    }
+    
 }

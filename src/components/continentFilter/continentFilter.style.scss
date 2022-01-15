@@ -3,4 +3,11 @@ select{
     color: #574f7d;
     border: 2px solid #574f7d;
     width: 40%;
+    
+}
+
+@media only screen and (max-width:500px){
+    select{
+        width: 80%;
+    }
 }
