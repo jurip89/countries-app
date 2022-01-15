@@ -1,20 +1,22 @@
 
 .page{
     margin-bottom: 5%;
+    background-color: #95adbe;
     .top{
         margin: 0;
         width: 100%;
         .back{
+            padding: 1% 2%;
             margin: 2.5% 5%;
-            border-radius: 0%;
+            border-radius: 5%;
             border: 1px solid #574f7d;
-            width: 5%;
-            height: 40%;
+            width: 2.5%;
+            height: 7%;
             color: white;
             background-color: #574f7d;
             &:hover{
                 color: #574f7d;
-                background-color: white;
+                background-color: #e0f0ea;
             }
         }
     }
@@ -26,6 +28,7 @@
         max-height: 30%;
         border-radius: 5px;
         margin: auto ;
+        
         .link{
             text-decoration: none;
         }

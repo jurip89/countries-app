@@ -4,3 +4,12 @@
     margin: 0 0 2.5%;
    
 }
+
+@media only screen and (max-width: 400px){
+    .main{
+        flex-wrap: nowrap;
+        display: block;
+        margin: 10% auto;
+        justify-content: space-around;    
+    }
+  }

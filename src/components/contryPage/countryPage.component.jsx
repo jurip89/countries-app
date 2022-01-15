@@ -3,6 +3,9 @@ import {useNavigate,useParams} from 'react-router-dom'
 import { selectAllCountries } from "../../features/countrySlice";
 import { useSelector } from "react-redux";
 import './countryPage.style.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+
 
 export const CountryPage = () => {
     const countries = useSelector(selectAllCountries)
@@ -12,14 +15,12 @@ export const CountryPage = () => {
     let navigate = useNavigate()
     const handleClick = () => {
         navigate('/')
-        console.log(country)
+       
     }
     return (
         <div className="page">
             <div className="top">
-                <button className="back" onClick={handleClick}>
-               <strong>&#8592;</strong> 
-                </button>
+                <FontAwesomeIcon icon={faArrowLeft}  className="back" onClick={handleClick}/>
             </div>
             <div className="big-card">
              
