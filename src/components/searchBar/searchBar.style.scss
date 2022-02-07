@@ -2,7 +2,7 @@
     width: 50%;
     display: inline-flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
     input{
         margin: 0 2.5% 5% 0;
         width: 75%;
@@ -12,13 +12,13 @@
         border-bottom: 1px solid #574f7d;
         
         font-size: 1.55rem;
-        color: #e0f0ea;
+        color: #574f7d;
     }
     .clear{
         border-radius: 5%;
         border: 1px solid #574f7d;
         width: 17.5%;
-        
+        height: 7vh;
         color: #e0f0ea;
         background-color: #574f7d;
         &:hover{

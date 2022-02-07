@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import './App.css';
+
 import { useDispatch } from 'react-redux';
 import { laodContries} from './features/countrySlice'
 import { NavBar } from './components/navBar/navbar.component';

@@ -22,9 +22,10 @@ export const CountryPage = () => {
             <div className="top">
                 <FontAwesomeIcon icon={faArrowLeft}  className="back" onClick={handleClick}/>
             </div>
+            <div className="big-cardcontainer">
             <div className="big-card">
              
-                <img className="flag" src={country[0].flag} alt={country[0].flags.svg} /> 
+                <img className="flag" src={country[0].flags.png} alt={country[0].flags.svg} /> 
                 <div className="container">
                 <h2 className="title">{country[0].name}</h2>
                     
@@ -37,7 +38,7 @@ export const CountryPage = () => {
                 
             
             </div>
-            
+            </div>
         </div>
     )
 }
